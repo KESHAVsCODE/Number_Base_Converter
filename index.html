@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <script defer src="compute.js"></script>
+  </head>
+  <body>
+    <h1>Number Base Converter</h1>
+
+    <div class="container">
+      <div class="input grid">
+        <h2>From</h2>
+        <select id="input_option">
+          <option value="Binary">Binary</option>
+          <option value="Octal">Octal</option>
+          <option value="Decimal">Decimal</option>
+          <option value="Hexadecimal">Hexadecimal</option>
+        </select>
+        <textarea id="input_area" rows="15" resize="none"></textarea>
+      </div>
+
+      <div>
+        <button id="swap" class="btn">Swap</button>
+        <button id="submit" class="btn">Submit</button>
+      </div>
+
+      <div class="output grid">
+        <h2>To</h2>
+        <select id="output_option">
+          <option value="Binary">Binary</option>
+          <option value="Octal">Octal</option>
+          <option value="Decimal">Decimal</option>
+          <option value="Hexadecimal">Hexadecimal</option>
+        </select>
+        <textarea id="output_area" rows="15"></textarea>
+      </div>
+    </div>
+  </body>
+</html>
